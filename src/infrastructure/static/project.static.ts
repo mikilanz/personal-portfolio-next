@@ -8,19 +8,19 @@ export const LIST_PROJECTS = [
   {
     title: "Push Notification API with Background Workers",
     description: "a push notification API built with Golang, Postgres, and Firebase Cloud Messaging, utilizing background workers for efficient message processing and delivery.",
-    tech: ["Golang", "Postgres", "firebase cloud messaging"],
+    tech: ["Golang", "PostgreSQL", "firebase cloud messaging"],
     url: "#"
   },
   {
     title: "Telegram Bot for Company daily operations",
     description: "A Telegram bot built with typescript and nodejs to automate daily operations for customer service in the company.",
-    tech: ["Node.js", "TypeScript", "Telegraf"],
+    tech: ["Node.js", "TypeScript", "Telegraf", "firebase firestore"],
     url: "#"
   },
   {
     title: "Domain Management API",
     description: "An API for managing domain registrations and DNS records, built with typescript and integrate to Cloudflare API.",
-    tech: ["TypeScript", "Node.js", "Cloudflare API"],
+    tech: ["TypeScript", "Node.js", "Cloudflare API", "PostgreSQL"],
     url: "#"
   },
   {
