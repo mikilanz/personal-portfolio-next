@@ -13,7 +13,7 @@ export default function RootLayout({
         <header className="border-b border-neutral-200">
           <Container>
             <div className="flex h-16 items-center justify-between">
-              <span className="font-semibold">Personal Portfolio</span>
+              <a href="/"><span className="font-semibold">Personal Portfolio</span></a>
               <nav className="flex gap-6 text-sm text-neutral-600">
                 <a href="/">Home</a>
                 <a href="/projects">Projects</a>

@@ -1,4 +1,4 @@
-import { ProjectRepository } from "../domain/repositories/project.repository";
+import { ProjectRepository } from "@/infrastructure/repositories/project.repository.static";
 
 export class ProjectsUseCase {
   constructor(private repo: ProjectRepository) {}

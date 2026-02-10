@@ -1,8 +1,8 @@
 import { Project } from "@/domain/entities/project.entity";
-import { ProjectRepository } from "../../domain/repositories/project.repository";
+import { ProjectInterface } from "../../domain/interface/project.interface";
 import { LIST_PROJECTS } from "../static/project.static";
 
-export class StaticProjectRepository implements ProjectRepository {
+export class ProjectRepository implements ProjectInterface {
   getProjects(): Project[] {
     return LIST_PROJECTS.map(p => new Project(p.title, p.tech, p.description, p.url));
   }

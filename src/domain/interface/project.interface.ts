@@ -1,5 +1,5 @@
 import { Project } from "../entities/project.entity";
 
-export interface ProjectRepository {
+export interface ProjectInterface {
   getProjects(): Project[];
 }

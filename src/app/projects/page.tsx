@@ -1,4 +1,4 @@
-import { StaticProjectRepository } from "@/infrastructure/repositories/project.repository.static";
+import { ProjectRepository } from "@/infrastructure/repositories/project.repository.static";
 import { Container } from "@/shared/ui/Container";
 import { ProjectCard } from "@/shared/ui/ProjectCard";
 import { Section } from "@/shared/ui/Section";
@@ -6,7 +6,7 @@ import { ProjectsUseCase } from "@/usecase/project.usecase";
 
 export default function ProjectsPage() {
   const projects = new ProjectsUseCase(
-    new StaticProjectRepository()
+    new ProjectRepository()
   ).execute();
 
   return (

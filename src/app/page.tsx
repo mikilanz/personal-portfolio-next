@@ -1,12 +1,12 @@
 import { ProfileUseCase } from "../usecase/profile.usecase";
-import { StaticProfileRepository } from "../infrastructure/repositories/profile.repository.static";
+import { ProfileRepository } from "../infrastructure/repositories/profile.repository.static";
 import { Button } from "@/shared/ui/Button";
 import { Container } from "@/shared/ui/Container";
 import { Section } from "@/shared/ui/Section";
 
 export default function HomePage() {
   const profile = new ProfileUseCase(
-    new StaticProfileRepository()
+    new ProfileRepository()
   ).execute();
 
   return (
