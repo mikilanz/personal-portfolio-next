@@ -30,12 +30,6 @@ export const LIST_PROJECTS = [
     url: "#"
   },
   {
-    title: "Indosat Internal CISSM System",
-    description: "An internal system for managing CISSM (Cybersecurity Information Sharing and Security Management) processes within Indosat.",
-    tech: ["TypeScript", "Node.js", "Express"],
-    url: "#"
-  },
-  {
     title: "Search Engine Improvement in Library System",
     description: "Improving the search engine functionality in a library management system to enhance user experience and search accuracy.",
     tech: ["MySQL", "PHP", "Elasticsearch"],
